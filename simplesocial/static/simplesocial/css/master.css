@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  overflow: scroll;
+  background-color: #ffff;
+  color:black;
+}
+
+.jumbotron{
+  background-color: #E63946;
+  color: white;
+}
+.jumbotron-fluid {
+  background-color: #FF5666;
+  font: center;
+}
+
+
+
+.top {
+  background-color: #505763;
+  color: #505763;
+}
+
+.bot{
+  background-color: #F6511D;
+  color: #F6511D;
+  margin-top: 90px;
+  margin-bottom: 0px;
+}
+
+
+.card {
+  margin-top: 20px;
+
+
+}
+.cc {
+  background-color: #006494;
+  color: white;
+  margin-left: 35px;
+}
+
+.btn {
+  margin-left: 10px;
+  color: white;
+  font-weight: bold;
+}
+
+a {
+  color: black;
+}

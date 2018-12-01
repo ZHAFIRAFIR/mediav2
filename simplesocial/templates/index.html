@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+{% block contentIndex %}
+
+
+
+  <div class="container">
+      <div class="jumbotron">
+        <h1 class="display-4">Welcome to STORMBIRD!</h1>
+        <p class="lead">Let's start sharing your moment</p>
+        <hr class="my-4">
+        <p>Making your life simple, free sign up !!!</p>
+        <a class="btn btn-info btn-lg" href="{% url 'accounts:signup' %}" role="button">Sign Up now!</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container card text-center">
+  <div class="card-header">
+    <span class="badge badge-warning">Featured</span>
+
+    <span class="badge badge-dark">Posting moment</span>
+    <span class="badge badge-dark">Join Groups</span>
+    <span class="badge badge-dark">Create Groups</span>
+
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Get started now! with 3 simple step to follow</h5>
+    <p class="card-text"></p>
+    <a href="{% url 'accounts:signup' %}" class="btn btn-info btn-sm">Sign up</a>
+  </div>
+
+</div>
+
+
+  <div class="container">
+  <div class="row">
+    <div class="col-sm">
+      <div class="cc card text-center" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">STEP 1 : SIGN UP </h5>
+    <p class="card-text"></p>
+  </div>
+</div>
+    </div>
+    <div class="col-sm">
+      <div class="cc card text-center" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">STEP 2 : LOGIN</h5>
+    <p class="card-text"></p>
+  </div>
+</div>
+    </div>
+    <div class="col-sm">
+      <div class="cc card text-center" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">STEP 3 : POSTING MOMENT</h5>
+    <p class="card-text"></p>
+  </div>
+</div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+{% endblock %}
